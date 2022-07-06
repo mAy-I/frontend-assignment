@@ -10,7 +10,7 @@ html {
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
-#container {
+#app {
   display: flex;
   flex-direction: column;
   justify-content: center;

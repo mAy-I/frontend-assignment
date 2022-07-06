@@ -9,7 +9,7 @@ type Point = [number, number];
 ```typescript
 interface Zone {
   label: string;
-  polygon: Point[];
+  coordinates: Point[];
 }
 ```
 
