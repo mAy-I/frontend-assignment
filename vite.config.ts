@@ -1,10 +1,11 @@
-import path from "path";
+import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
+import path from "path";
 
 export default defineConfig({
-  root: path.join(process.cwd(), "./src/client"),
-  build: {
-    outDir: path.join(process.cwd(), "./src/server/dist"),
-    emptyOutDir: true,
+  plugins: [react()],
+  root: path.resolve("./"),
+  server: {
+    port: 3000,
   },
 });
