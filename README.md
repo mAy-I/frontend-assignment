@@ -8,9 +8,7 @@
 
 구현 방식은 자유입니다. 구현에 필요한 패키지를 추가해주셔도 됩니다.
 
-
 https://github.com/mAy-I/frontend-assignment/assets/64902287/69083d9f-daf2-4db8-9563-7dabec732624
-
 
 ## 요구 사항
 
