@@ -19,5 +19,5 @@
       "@renderer": ["renderer/index"]
     }
   },
-  "include": ["src", "server", "index.tsx"]
+  "include": ["src", "server", "index.tsx", "renderer"]
 }
