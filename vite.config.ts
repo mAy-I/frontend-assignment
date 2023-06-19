@@ -8,4 +8,12 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  resolve: {
+    alias: [
+      {
+        find: "@renderer",
+        replacement: path.resolve(__dirname, "renderer", "index"),
+      },
+    ],
+  },
 });
